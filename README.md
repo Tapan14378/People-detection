@@ -1,0 +1,3 @@
+This code utilizes the YOLOv3 model for real-time object detection. It detects the number of people present in each frame captured from a camera. The YOLOv3 model is loaded using pre-trained weights and a configuration file. The class names of the objects that YOLOv3 can detect are loaded from a file. The code continuously captures frames from the camera, preprocesses them, and passes them through the YOLOv3 model for object detection. The bounding boxes and labels are drawn on the frames for the "person" class detections. The code keeps track of the number of people detected and displays it in green text on each frame. The process continues until the user exits the program.
+
+The yolov3.weights can be downloaded from https://pjreddie.com/media/files/yolov3.weights
